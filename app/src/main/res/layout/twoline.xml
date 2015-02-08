@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight">
+
+    <TextView
+        android:id="@+id/text1"
+        style="?android:attr/dropDownItemStyle"
+
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee" />
+    <TextView
+        android:id="@+id/secondline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/abc_dropdownitem_text_padding_left"
+        android:layout_marginLeft="@dimen/abc_dropdownitem_text_padding_left"/>
+
+
+</LinearLayout>
